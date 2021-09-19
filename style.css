@@ -1,0 +1,67 @@
+body {
+
+}
+
+canvas {
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.Header {
+    background-color: #eeb91c;
+    box-shadow: 2px 2px 8px gray;
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#heading {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+#instructions_btn {
+    float: right;
+    margin-right: 50px;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+#play_btn {
+    margin-top: 20px;
+}
+
+#pause_btn {
+    margin-top: 20px;
+}
+
+#resume_btn {
+    margin-top: 20px;
+}
+
+#restart_btn {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#status {
+    background-color: #adb5bd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #81878d;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 38px;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 15%;
+}
+
